@@ -12,7 +12,7 @@ import Comparator from '../../../utils/comparator/Comparator';
 export default function binarySearch(
   sortedArray,
   seekElement,
-  comparatorCallback
+  comparatorCallback,
 ) {
   // Let's create comparator from the comparatorCallback function.
   // Comparator object will give us common comparison methods like equal() and lessThan().

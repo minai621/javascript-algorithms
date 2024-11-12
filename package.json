@@ -28,7 +28,7 @@
   "homepage": "https://github.com/trekhleb/javascript-algorithms#readme",
   "main": "index.js",
   "scripts": {
-    "lint": "eslint ./src/**",
+    "lint": "eslint ./legacy-src/**",
     "test": "jest",
     "coverage": "npm run test -- --coverage",
     "ci": "npm run lint && npm run coverage",
